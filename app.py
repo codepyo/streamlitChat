@@ -1,15 +1,3 @@
-#데이터 프레임 가져오기​
-import streamlit as st
-import pandas as pd
-
-# Read the dataset
-df = pd.read_csv("InkjetDB_preprocessing.csv")
-
-# Display the dataframe
-st.write(df)
-##################################################################################################################
-
-
 # 챗봇 가져오기
 from openai import OpenAI
 import streamlit as st
